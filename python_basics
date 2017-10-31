@@ -1,0 +1,41 @@
+in python you have only super basic operations, nu mat functions
+
+to import a library:  "import library"
+                      "from (library) import *" <-----everything
+you access an object using the . notation
+since everything is an object you can access anything. ex: math.cos(0)
+they are precompiled c libraries, very fast
+
+Containers-----> high level structures
+Lists----------> principal role is to store other object
+                 not efficient so don't do a lists of doubles!!!
+                 you use numpy arrays 
+
+Tuples---------> they are constants objects one you create them
+
+Dictionaries--->?
+
++ applied to lists sum the lists not their elements!
+
+you can use arguments in functions that came from the main program
+but in that case you obtain a macro and not a real function since it depends 
+upon the environment you are using.
+
+function?-----> vedi cosa fa la function in questione.
+if you put 3 vertical """ is a string that contain lines and you can add
+documentation to the function
+##########################################################################
+cocalc 
+run %pylab inline on jupiter online if you want to see the staff online
+           but you can't interact with them
+           equivalent to import everything from numpy and matplotlib
+           MOST VALUABLE THING IS PROGRAMMING TIME!
+           MANDATORY THING YOU HAVE TO REDUCE!
+           DON'T OPTIMIZE CODE (YET)
+           
+ndarray----> multidimensional homogeneus array.
+             we will work with them forever.
+
+reshape----> you change how the array looks in memory not how it looks
+             you can use that for matrix matrix multiplication in
+             c and fortran style for optimal performance
