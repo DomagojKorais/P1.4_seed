@@ -1,0 +1,15 @@
+istruzioni per il setup di docker per fare numerica con python3 e anaconda
+e avere gli jupyter notebook, con montata la cartella del corso in cui si possono fare modifiche o da docker o dall'host.
+
+
+da terminale: 
+
+docker run -it -v /home/doma/0dssc/P1.4_seed:/analisi --name numerica -p 8888:8888 continuumio/anaconda3
+
+
+dentro il container:
+
+jupyter notebook --ip 0.0.0.0 --no-browser
+
+
+
